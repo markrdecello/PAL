@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#e8e8e8"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Counselor.StudentListFragment">
+  <android.support.v7.widget.RecyclerView
+      android:id="@+id/chat_recycler_view"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+  </android.support.v7.widget.RecyclerView>
+</LinearLayout>
+
+<!--
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#e8e8e8"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Counselor.StudentListFragment">
+    <TextView
+        android:textColor="@android:color/holo_blue_dark"
+        android:id="@+id/student_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center"
+        />
+    <ListView
+        android:layout_marginBottom="30dp"
+        android:dividerHeight="3dp"
+        android:padding="10dp"
+        android:listSelector="#d4d4d4"
+        android:id="@+id/student_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+-->

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?attr/backgroundcolor"
+    android:padding="20dp"
+    tools:context=".StudentProfile">
+
+    <TextView
+        android:textColor="?attr/textcolor"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/profile_name"
+        android:text="Name"
+        android:gravity="center"
+        android:textSize="22dp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:textColor="?attr/textcolor"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/profile_school"
+        android:textSize="16dp"
+        android:text="School"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/profile_email_text"
+        android:textSize="16dp"
+        android:textColor="?attr/tintcolor"
+        android:text="E M A I L"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/profile_email"
+        android:textSize="20dp"
+        android:textColor="?attr/textcolor"
+        android:text="Email"
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/profile_birthday_text"
+        android:textSize="16dp"
+        android:textColor="?attr/tintcolor"
+        android:text="D A T E   O F   B I R T H"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/profile_birthday"
+        android:textSize="20dp"
+        android:textColor="?attr/textcolor"
+        android:text="Date Of Birth"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/profile_phone_number_text"
+        android:textSize="16dp"
+        android:textColor="?attr/tintcolor"
+        android:text="P H O N E   N U M B E R"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/profile_phone_number"
+        android:textSize="20dp"
+        android:textColor="?attr/textcolor"
+        android:text="Phone Number"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/school_id_text"
+        android:textSize="16dp"
+        android:textColor="?attr/tintcolor"
+        android:text="S C H O O L   I D"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/profile_school_id"
+        android:textSize="20dp"
+        android:textColor="?attr/textcolor"
+        android:text="School ID"
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/counselor_id_text"
+        android:textSize="16dp"
+        android:textColor="?attr/tintcolor"
+        android:text="C O U N S E L O R   I D"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/profile_counselor_id"
+        android:textSize="20dp"
+        android:textColor="?attr/textcolor"
+        android:text="Counselor ID"
+        />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:background = "@drawable/action_btn"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_button"
+        android:text="U P D A T E"
+        android:textAllCaps="false"
+        android:textColor="?attr/buttontextcolor"
+        android:textStyle="bold"
+        />
+
+
+
+
+
+
+</LinearLayout>

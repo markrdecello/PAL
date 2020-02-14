@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">PAL</string>
+    <string name="title_activity_tabbed">TabbedActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email_address">Email Address*</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="gender">Gender</string>
+    <string name="school_id">School ID</string>
+    <string name="graduation_year">Graduation Year</string>
+    <string name="register">R E G I S T E R</string>
+    <string name="school">School Name</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="yyyymmdd">YYYYMMDD</string>
+    <string name="_2">-2</string>
+    <string name="_1">-1</string>
+    <string name="_0">0</string>
+    <string name="positive1">1</string>
+    <string name="positive2">2</string>
+    <string name="submit">S U B M I T</string>
+    <string name="go_to_forms">Go to forms</string>
+    <string name="login_email">Email</string>
+    <string name="log_in_password">Password</string>
+    <string name="sign_in">S I G N \u0020 I N</string>
+    <string name="sign_up">S I G N \u0020 U P</string>
+    <string name="daily_form">Daily Form</string>
+    <string name="assign">Assign</string>
+    <string name="weekly_form">Weekly Form</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="date_of_birth">Date Of Birth</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="counselor_id">Counselor Id</string>
+    <string name="update">U P D A T E</string>
+    <string name="this_will_be_a_question">This will be a question.</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="submit_form">S U B M I T \u0020 F O R M</string>
+
+    <string name="about_description">
+
+        Welcome to PAL. Your Path to Assisted Living! This app is designed as a tool to maintain
+        communication between student and counselor. With PAL, users are able to create profiles, participate
+        in questionnaires and an instant messaging system. The main goal is to build a road to fostering
+        emotional well-being. Here at PAL, we hope to improve your life one step at a time.
+
+    </string>
+
+
+    //Forms
+    <string-array name="myforms">
+        <item>Daily Form</item>
+        <item>Weekly Form</item>
+    </string-array>
+    <string name="title_activity_tab">TabActivity</string>
+
+    <string-array name="Gender">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+
+
+</resources>

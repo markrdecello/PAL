@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/backgroundcolor"
+    >
+
+    <TextView
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:id="@+id/student_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="S T U D E N T   N A M E"
+        android:padding="10dp"
+        android:textColor="?attr/textcolor"
+        />
+    <TextView
+        android:padding="10dp"
+        android:id="@+id/last_message"
+        android:layout_below="@id/student_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last Message"
+        android:textColor="?attr/textcolor"
+        />
+
+</RelativeLayout>

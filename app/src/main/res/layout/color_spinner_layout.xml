@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="185dp"
+    android:layout_height="40dp"
+    android:padding="10dp"
+    android:text="Androchunk"
+    android:textColor="@android:color/darker_gray"
+    android:textSize="18sp">
+
+</CheckedTextView>

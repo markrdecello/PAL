@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:background="?attr/backgroundcolor"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView
+        android:elevation="15dp"
+        android:id="@+id/assign_form"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:cardBackgroundColor="?attr/buttoncolor"
+        android:layout_margin="10dp"
+        android:text="Assign Weekly Form">
+
+        <TextView
+            android:textColor="?attr/textcolor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A S S I G N   W E E K L Y   F O R M"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            />
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:elevation="15dp"
+        android:id="@+id/send_message"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="?attr/buttoncolor"
+        >
+        <TextView
+            android:textColor="?attr/textcolor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M E S S A G E"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            />
+    </android.support.v7.widget.CardView>
+
+    <ListView
+        android:id="@+id/my_list"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:textColor="?attr/textcolor">
+
+    </ListView>
+
+    <Button
+        android:background = "@drawable/action_btn"
+        android:textColor="?attr/buttontextcolor"
+        android:id="@+id/assign_button"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A S S I G N"
+        android:textStyle="bold"
+
+        />
+
+
+
+</LinearLayout>
