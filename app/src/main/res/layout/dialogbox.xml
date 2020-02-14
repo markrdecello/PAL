@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/parent_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:background="?attr/backgroundcolor"
+    android:layout_height="350dp">
+
+
+    <TextView
+        android:textColor="?attr/textcolor"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:id="@+id/close"
+        android:layout_width="28dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:text="X" />
+
+
+    <TextView
+        android:layout_marginBottom="20dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="?attr/textcolor"
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="88dp"
+        android:text="Welcome to the PAL app." />
+
+    <TextView
+        android:layout_margin="10dp"
+        android:textColor="?attr/textcolor"
+        android:layout_below="@id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/description_about"
+        android:text="@string/about_description"
+        />
+</RelativeLayout>

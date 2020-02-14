@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="?attr/backgroundcolor"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:textColor="?attr/textcolor"
+        android:layout_marginTop="150dp"
+        android:layout_margin="40dp"
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/this_will_be_a_question"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <RadioGroup
+        android:textColor="?attr/textcolor"
+        android:id="@+id/radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:textColor="?attr/textcolor"
+            android:id="@+id/three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="I feel my sadness or pain inside is almost unbearable today."
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:textColor="?attr/textcolor"
+            android:id="@+id/four"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="I feel extremely down or sad today."
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:textColor="?attr/textcolor"
+            android:id="@+id/five"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="I feel preety down or sad today."
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:textColor="?attr/textcolor"
+            android:id="@+id/six"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="I feel little bit down or sad today."
+            android:textSize="20sp" />
+
+
+        <RadioButton
+            android:textColor="?attr/textcolor"
+            android:id="@+id/seven"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="I feel nothing good or bad today."
+            android:textSize="20sp" />
+        <RadioButton
+            android:textColor="?attr/textcolor"
+            android:id="@+id/eight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="I feel okay or fine today."
+            android:textSize="20sp" />
+        <RadioButton
+            android:textColor="?attr/textcolor"
+            android:id="@+id/nine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="I feel good or happy today."
+            android:textSize="20sp" />
+
+    </RadioGroup>
+
+    <Button
+        android:background ="@drawable/action_btn"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/radio_group"
+        android:id="@+id/submit_button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:text="@string/submit"
+        android:textColor="?attr/buttontextcolor"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+
+
+</RelativeLayout>

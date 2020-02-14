@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bignerdranch.android.suicidepreventionapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SET_ALARM" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo7"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SignUp" />
+        <activity android:name=".StudentProfile" />
+        <activity android:name=".EditProfileActivity" />
+        <activity android:name=".FormListActivity" />
+        <activity android:name=".HostActivity" />
+        <activity
+            android:name=".FormActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Counselor.StudentListFragment" />
+        <activity android:name=".Counselor.ViewFormActivity" />
+        <activity android:name=".Counselor.AnsweredFormActivity" />
+        <activity android:name=".Counselor.TabbedActivity" />
+        <activity android:name=".CounselorChat" />
+        <activity android:name=".JoinChatRoom" />
+        <activity android:name=".ChatRoom" />
+        <activity android:name=".Counselor.CounselorJoinChatRoom" />
+        <activity android:name=".Counselor.CounselorChatRoom" />
+        <activity android:name=".DailyForm" />
+
+        <receiver android:name=".Notification_receiver" />
+
+        <activity android:name=".DailyFormTwo"></activity>
+    </application>
+
+</manifest>

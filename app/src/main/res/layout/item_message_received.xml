@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="8dp">
+
+
+    <TextView
+        android:layout_marginLeft="12dp"
+        android:textColor="@android:color/black"
+        android:id="@+id/message_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="John Doe"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_marginLeft="12dp"
+        android:layout_below="@id/message_name"
+        android:id="@+id/message_body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_rectangle_orange"
+        android:maxWidth="240dp"
+        android:padding="8dp"
+        android:text="hi man, how are you?"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_toRightOf="@id/message_body"
+        android:layout_below="@id/message_body"
+        android:id="@+id/message_time"
+        android:text="11:40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:layout_marginLeft="4dp"
+       />
+
+</RelativeLayout>

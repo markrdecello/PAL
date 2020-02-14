@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="?attr/backgroundcolor"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:textColor="?attr/textcolor"
+        android:layout_marginTop="150dp"
+        android:layout_margin="40dp"
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/this_will_be_a_question"
+        android:textSize="20dp" />
+
+    <RadioGroup
+        android:textColor="?attr/textcolor"
+        android:id="@+id/radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:textColor="?attr/textcolor"
+            android:id="@+id/negative_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Strongly Disagree"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:textColor="?attr/textcolor"
+            android:id="@+id/negative_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Disagree"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:textColor="?attr/textcolor"
+            android:id="@+id/zero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Neutral"
+            android:textSize="20sp"/>
+
+        <RadioButton
+            android:textColor="?attr/textcolor"
+            android:id="@+id/one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Agree"
+            android:textSize="20sp" />
+
+
+        <RadioButton
+            android:textColor="?attr/textcolor"
+            android:id="@+id/two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Strongly Agree"
+            android:textSize="20sp" />
+
+    </RadioGroup>
+
+    <Button
+        android:background="@drawable/action_btn"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/radio_group"
+        android:id="@+id/submit_button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:text="@string/submit"
+        android:textColor="?attr/buttontextcolor"
+       android:textSize="20sp"
+        android:textStyle="bold" />
+    <Button
+        android:background="@drawable/action_btn"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/submit_button"
+        android:id="@+id/submit_form_button"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:text="@string/submit_form"
+        android:textColor="?attr/buttontextcolor"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>

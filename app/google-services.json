@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "3791841615",
+    "firebase_url": "https://project-pal-1.firebaseio.com",
+    "project_id": "project-pal-1",
+    "storage_bucket": "project-pal-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3791841615:android:dcf8f35ecfcd1853",
+        "android_client_info": {
+          "package_name": "com.bignerdranch.android.suicidepreventionapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "3791841615-tberjgonqhc2qmog0sms6h9r9vbt52is.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMy7k9x0m8b1RmxYrjBEdq5I_GLnsg7f4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "3791841615-tberjgonqhc2qmog0sms6h9r9vbt52is.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
